@@ -25,6 +25,7 @@
 ## Condicionales
 ### If-else
 |Ejercicio retiro del dinero de un banco|
+|-|
 |![image](https://github.com/brittanypallasco2003/Fundamentos_JS/assets/117743650/215a0b19-fc15-4080-986a-2d53625c8c2b)|
 |![image](https://github.com/brittanypallasco2003/Fundamentos_JS/assets/117743650/0fb58eda-fb5a-4428-b515-c45b5ea41bab)|
 |![image](https://github.com/brittanypallasco2003/Fundamentos_JS/assets/117743650/4f7ec3f5-58d0-4a5d-bd5e-20f7143d2e38)|
