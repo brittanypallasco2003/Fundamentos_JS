@@ -39,9 +39,9 @@
 ### For clásico
 |Ejercicio: estado de carga de un teléfono|
 |-|
-|![image](https://github.com/brittanypallasco2003/Fundamentos_JS/assets/117743650/d49d983d-619a-44a9-bdd5-d2b9450c0711)
-![image](https://github.com/brittanypallasco2003/Fundamentos_JS/assets/117743650/38ce5b33-d7cb-44c7-ad6c-c66f0c08609c)|
-|![image](https://github.com/brittanypallasco2003/Fundamentos_JS/assets/117743650/954048fb-e7c8-47f2-b417-ac2d8d176eaf)|
+|![image](https://github.com/brittanypallasco2003/Fundamentos_JS/assets/117743650/01ad7df5-5a76-4bff-b990-65c5fedc17c0)|
+|![image](https://github.com/brittanypallasco2003/Fundamentos_JS/assets/117743650/41cb87ad-b873-4fda-95d6-38f64382501e)|
+|![image](https://github.com/brittanypallasco2003/Fundamentos_JS/assets/117743650/7a67d998-e8b7-4702-bca4-3b7a13dafaff)|
 
 ### 
 
