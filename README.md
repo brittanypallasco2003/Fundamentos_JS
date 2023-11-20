@@ -65,7 +65,7 @@
 |Muestra el mensaje dentro del bloque de la función|El nombre de la persona es el parámetro de la función|
 |![image](https://github.com/brittanypallasco2003/Fundamentos_JS/assets/117743650/e3a47faa-d608-4b22-b6ad-21c73ccd6d5a)|![image](https://github.com/brittanypallasco2003/Fundamentos_JS/assets/117743650/1f41d884-2da4-4a39-9864-865dd12bb5a9)|
 
-### Función Ánonima y Flecha
+### Función Anónima y Flecha
 |ánonima|flecha|
 |-|-|
 |sirve de argumento para otra función para determinar en °celcius la temperatura|Determina el número de decenas en una cantidad|
