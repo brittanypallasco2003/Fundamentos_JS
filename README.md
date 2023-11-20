@@ -30,7 +30,7 @@
 |![image](https://github.com/brittanypallasco2003/Fundamentos_JS/assets/117743650/4f7ec3f5-58d0-4a5d-bd5e-20f7143d2e38)|
 
 ## Condicional múltiple
-### Swithc
+### Swicth
 |Ejercicio: 5+7...|
 |-|
 |![image](https://github.com/brittanypallasco2003/Fundamentos_JS/assets/117743650/1a348bef-d85f-41a1-8bbb-eff6ce26b742)|
@@ -56,6 +56,27 @@
 
 ### Map
 ![image](https://github.com/brittanypallasco2003/Fundamentos_JS/assets/117743650/4f7ac29e-08e5-4652-ae46-9fa7a6196ec1)
+
+## Funciones
+### Parámetros y Argumentos 
+|Funciones sin parámetros|Funciones con Parámetros|
+|-|-|
+|Muestra el mensaje dentro del bloque de la función|El nombre de la persona es el parámetro de la función|
+|![image](https://github.com/brittanypallasco2003/Fundamentos_JS/assets/117743650/e3a47faa-d608-4b22-b6ad-21c73ccd6d5a)|![image](https://github.com/brittanypallasco2003/Fundamentos_JS/assets/117743650/1f41d884-2da4-4a39-9864-865dd12bb5a9)|
+
+### Función Ánonima y Flecha
+|ánonima|flecha|
+|-|-|
+|sirve de argumento para otra función para determinar en °celcius la temperatura|Determina el número de decenas en una cantidad|
+|![image](https://github.com/brittanypallasco2003/Fundamentos_JS/assets/117743650/3bcf2561-0b67-442a-8a72-029cf42c94ea)|![image](https://github.com/brittanypallasco2003/Fundamentos_JS/assets/117743650/085f5eba-0ce1-45bf-9545-ef7cf3112f2f)|
+
+
+
+
+
+
+
+
 
 
 
