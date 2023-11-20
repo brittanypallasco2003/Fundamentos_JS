@@ -43,7 +43,22 @@
 |![image](https://github.com/brittanypallasco2003/Fundamentos_JS/assets/117743650/41cb87ad-b873-4fda-95d6-38f64382501e)|
 |![image](https://github.com/brittanypallasco2003/Fundamentos_JS/assets/117743650/7a67d998-e8b7-4702-bca4-3b7a13dafaff)|
 
-### 
+### For Each
+|Ejercicio: listar sabores de helado|
+|-|
+|![image](https://github.com/brittanypallasco2003/Fundamentos_JS/assets/117743650/53d05c61-b55d-449e-82a5-48c2800cabb7)|
+
+### For of
+![image](https://github.com/brittanypallasco2003/Fundamentos_JS/assets/117743650/228ef155-1490-4d21-95a2-bdf7e7276d8e)
+
+### For in (For usado para acceder a los valores de las propiedades del objeto 'estudiante')
+![image](https://github.com/brittanypallasco2003/Fundamentos_JS/assets/117743650/da983a0f-b69b-4461-a9f1-840e84f9c404)
+
+### Map
+![image](https://github.com/brittanypallasco2003/Fundamentos_JS/assets/117743650/4f7ac29e-08e5-4652-ae46-9fa7a6196ec1)
+
+
+
 
 
 
