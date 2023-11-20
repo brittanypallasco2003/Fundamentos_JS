@@ -70,6 +70,11 @@
 |sirve de argumento para otra función para determinar en °celcius la temperatura|Determina el número de decenas en una cantidad|
 |![image](https://github.com/brittanypallasco2003/Fundamentos_JS/assets/117743650/3bcf2561-0b67-442a-8a72-029cf42c94ea)|![image](https://github.com/brittanypallasco2003/Fundamentos_JS/assets/117743650/085f5eba-0ce1-45bf-9545-ef7cf3112f2f)|
 
+### Función con parámetros por Default y con this
+|Default|Uso de this|Parámetros Rest|
+|-|-|-|
+|![image](https://github.com/brittanypallasco2003/Fundamentos_JS/assets/117743650/622a4c94-0f11-40e3-b775-bc8a9ae26d14)|![image](https://github.com/brittanypallasco2003/Fundamentos_JS/assets/117743650/6b850fb2-8612-4a1b-b4a6-adfb9b63e374)|![image](https://github.com/brittanypallasco2003/Fundamentos_JS/assets/117743650/bac427de-0566-4ec3-b807-af6f425aa97f)|
+
 
 
 
