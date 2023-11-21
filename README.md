@@ -44,7 +44,7 @@
 #### Métodos
 ![image](https://github.com/brittanypallasco2003/Fundamentos_JS/assets/117743650/beb2b246-a26d-4611-8ee9-b3210dd3baa0)
 
-### Nombres Abreviados
+#### Nombres Abreviados
 ![image](https://github.com/brittanypallasco2003/Fundamentos_JS/assets/117743650/c231dee5-1830-44c6-b2a3-eec2c9f38d96)
 
 
