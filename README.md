@@ -34,6 +34,97 @@
 ![image](https://github.com/brittanypallasco2003/Fundamentos_JS/assets/117743650/7a43b17e-884b-4d6a-b9a8-ec55df231283)
 ![image](https://github.com/brittanypallasco2003/Fundamentos_JS/assets/117743650/eb9b093c-aa14-4f6a-8eb4-205190ea0170)
 
+## Asincronismo
+### Ejemplo de Asincronismo
+|Poner una peli mientras se hacen palomitas|
+|-|
+|![image](https://github.com/brittanypallasco2003/Fundamentos_JS/assets/117743650/3c39c6ac-aee3-4b8c-b786-9b9702632b4c)|
+|![image](https://github.com/brittanypallasco2003/Fundamentos_JS/assets/117743650/59c691f3-6959-4ace-b355-35629058718d)|
+
+### Código Síncrono vs Asíncrono
+#### Ejemplo Código Síncrono
+```
+function modify(array, callback){
+    console.log(`tenemos que comprar ${array.length} cosas`)
+    console.log('olvide anotar detergente')
+    array.push('detergente')
+  callback()
+  }
+  
+  const listaComprar=['cepillo','avena','jabón']
+  
+  modify(listaComprar, function(){
+    console.log(`Ahora tenemos que comprar ${listaComprar.length} cosas`)
+})
+```
+
+#### Ejemplo código Asíncrono
+```
+function modificarLista(array, callback){
+    console.log("recuerdo si olvido algo que comprar...")
+    array.push('esponjas')
+    setTimeout(function(){
+      callback(array)
+    },5000)
+  
+  }
+  
+  modificarLista(listaComprar, function(arrayParametro){
+    console.log("se ha modificado el la lista")
+    console.log(`Ahora hay que comprar: ${arrayParametro.length} cosas`)
+  })
+```
+![image](https://github.com/brittanypallasco2003/Fundamentos_JS/assets/117743650/63675874-2b21-49f3-a48a-0bf6be1087eb)
+
+### Promesas
+```
+const operation=(n1,n2)=>{
+    const resultado=n1+n2
+    return new Promise((resolve)=>{//el consultor de la promesa recibe como parámetro el resolve o reject 
+        setTimeout(()=>{
+            resolve(resultado)//resolve es una función que recibe como parámetro el resultado de la op
+        },3000)
+    })
+}
+
+operation(10,5)
+    .then(result=>(console.log(`la suma es: ${result}`)))
+```
+![image](https://github.com/brittanypallasco2003/Fundamentos_JS/assets/117743650/4c94bd24-b2bb-4873-b50d-dc7dcb776d2c)
+
+### Asyn-Await
+```
+function operation2(value){
+    if(typeof value!="number"){
+        return Promise.reject("No es un número")
+    }
+    return new Promise((resolve, reject)=>{ 
+        setTimeout(()=>{
+            resolve({value,
+            result:value*value})
+        },1000)
+
+    })
+}
+async function op() {
+    try {
+        const resultado = await operation2(5);
+        console.log("Éxito:", resultado);
+    } catch (error) {
+        console.error("Error:", error.message);
+    } finally {
+        console.log("Fin del programa");
+    }
+}
+
+op()
+```
+![image](https://github.com/brittanypallasco2003/Fundamentos_JS/assets/117743650/0059eb2d-70be-481b-a1fa-3f1f0f82ab8d)
+
+
+
+
+
 
 
 
