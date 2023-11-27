@@ -2,9 +2,14 @@ console.log("-----  DOOM Manipulation  -----")
 
 console.log("\n***  Acceder a los elementos HTML  ***")
 
-console.log(document.body)
+document.head
+document.links[0]
+document.images
 
-// console.log("\n***  Obtener clases del elemento  ***")
+console.log("\n***  Obtener clases del elemento  ***")
+//obtener las clases del elemento
+document.forms[0].classList
+document.forms[0].className0
 
 // var titulo = document.getElementsByClassName("miTitulo")
 
