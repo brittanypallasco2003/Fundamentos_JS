@@ -8,55 +8,51 @@ document.images
 
 console.log("\n***  Obtener clases del elemento  ***")
 //obtener las clases del elemento
-document.forms[0].classList
-document.forms[0].className0
+document.images[2].className
+document.images[3].classList
 
-// var titulo = document.getElementsByClassName("miTitulo")
+console.log("\n***  Seleccionar elementos por clase  ***")
+var elementosClaseepn=document.getElementsByClassName("custom-logo-epn") 
 
-// console.log("\n***  Seleccionar elementos por clase  ***")
+console.log("\n***  Seleccionar elementos por id  ***")
+document.forms[0].id 
+var idForm=document.getElementById("search-178") 
 
-// var elementosConClaseParrafo = document.getElementsByClassName("miClase")
+console.log("\n***  Seleccionar elementos con querySelector  ***")
 
-// console.log("\n***  Seleccionar elementos por id  ***")
+var ankor=document.querySelector("a") 
 
-// var parrafoPorId = document.getElementById("miParrafo")
+console.log("\n***  Seleccionar elementos con querySelectorAll  ***")
 
-// console.log("\n***  Seleccionar elementos con querySelector  ***")
+var todosLosLinks = document.querySelectorAll("a")
 
-// var primerParrafo = document.querySelector("p")
+console.log("\n***  Modificar el contenido   ***")
 
-// console.log("\n***  Seleccionar elementos con querySelectorAll  ***")
+document.querySelector(".tm-margin-large-top").textContent="Esfot-Epn" 
 
-// var todosLosParrafos = document.querySelectorAll("p")
+console.log("\n***  Modificar el estilo  ***")
+const divConferencias=document.querySelector(".uk-thumbnail-caption") 
+divConferencias.style.backgroundColor="red" 
 
-// console.log("\n***  Modificar el contenido   ***")
+console.log("\n***  Agregar elementos  ***")
 
-// document.querySelector('.tm-heading-large').textContent="ESFOT-EPN"
+const divConferencias=document.querySelector(".uk-thumbnail-caption") 
+const button = document.createElement("button")
+button.innerText="Clic aquí"
+divConferencias.appendChild(button);
 
-// console.log("\n***  Modificar el estilo  ***")
+console.log("\n***  Eliminar elementos  ***")
 
-// const buscador = document.querySelector('#search-178')
-// buscador.style.border="10px green solid"
+const divConferencias=document.querySelector(".uk-thumbnail-caption") 
+divConferencias.remove()
 
-// console.log("\n***  Agregar elementos  ***")
+console.log("\n***  Eventos  ***")
 
-// const buscador = document.querySelector('#search-178')
-// const button = document.createElement("button")
-// button.innerText="Hello React"
-// buscador.appendChild(button);
+const divConferencias=document.querySelector(".uk-thumbnail-caption") 
+const button = document.createElement("button")
+button.innerText="Clic aquí"
+divConferencias.appendChild(button);
 
-// console.log("\n***  Eliminar elementos  ***")
-
-// const buscador = document.querySelector('#search-178')
-// buscador.remove()
-
-// console.log("\n***  Eventos  ***")
-
-// const buscador = document.querySelector('#search-178')
-// const button = document.createElement("button")
-// button.innerText="Hello React"
-// buscador.appendChild(button)
-
-// button.addEventListener('click',function () {
-//     alert("Abrir Popup")
-// })
+button.addEventListener('click',function () {
+    alert("Mostrar Conferencias")
+})
