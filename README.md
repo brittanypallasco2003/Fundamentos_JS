@@ -13,3 +13,24 @@
 ![image](https://github.com/brittanypallasco2003/Fundamentos_JS/assets/117743650/64822acd-4565-46e1-8c58-b046dd28687a)
 
 ## Modulos
+### CommonJS
+#### Default
+```
+module.exports=sumar //module.js
+const sumar=require('./modulo') //index.js
+```
+![image](https://github.com/brittanypallasco2003/Fundamentos_JS/assets/117743650/83a665da-b5d9-4041-99eb-26166da7fd07)
+
+#### Nombrado
+```
+module.exports={ //modulo.js
+    sumar,
+    a,
+    b
+}
+const{sumar,a,b}=require('./modulo')//index.js
+```
+
+
+
+
