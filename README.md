@@ -30,6 +30,26 @@ module.exports={ //modulo.js
 }
 const{sumar,a,b}=require('./modulo')//index.js
 ```
+![image](https://github.com/brittanypallasco2003/Fundamentos_JS/assets/117743650/5bcaccbd-24af-4a9a-8a4e-1ef2762ad9b1)
+
+### ES Module
+#### Default
+```
+export default sumar //modulo.js
+import sumar from './modulo.js'    //index.js
+```
+![image](https://github.com/brittanypallasco2003/Fundamentos_JS/assets/117743650/ffa296f5-c4ce-4b33-ba6b-ab1b1e59c51d)
+
+#### Nombrado
+```
+export{         //modulo.js
+    sumar,
+    a,
+    b
+}
+import{sumar,a,b} from './modulo.js'  //index.js
+```
+![image](https://github.com/brittanypallasco2003/Fundamentos_JS/assets/117743650/ad7c755d-c0ff-4dbe-81e2-8c2572c0040f)
 
 
 
